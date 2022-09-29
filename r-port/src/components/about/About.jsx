@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-// import ME from ''
+import ME from '../../assets/meatcap.jpg'
 import {FaCode, FaGamepad} from 'react-icons/fa'
 import {MdEngineering} from 'react-icons/md'
 
@@ -12,9 +12,7 @@ const About = () => {
 
       <div className="container about_container">
         <div className="about_me">
-          <div className="about_me-image">
-            {/* <img src={ME} alt='' /> */}
-          </div>
+          <img src={ME} alt='' className='about_me-image'></img>
         </div>
 
         <div className="about_container">
@@ -28,21 +26,21 @@ const About = () => {
             <article className='about_card'>
               <MdEngineering className='about_icon' />
               <h5>Engineering</h5>
-              <small>4+ Years On-Site Experience</small>
+              <small>On-Site Experience</small>
             </article>
 
             <article className='about_card'>
               <FaGamepad className='about_icon' />
               <h5>Gaming</h5>
-              <small>300+ Games Played-Thru</small>
+              <small>300+ Games Played</small>
             </article>
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eaque magni. Dolores accusamus, nulla itaque perspiciatis maxime repudiandae facilis corrupti natus minus tempore voluptatibus reprehenderit ab consequatur velit tenetur ipsum.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis odio dolorem esse eos cumque aliquam, eaque nostrum nemo recusandae unde, alias, culpa accusamus. Itaque quod corporis voluptas commodi impedit tenetur incidunt, cumque inventore doloribus iusto. Delectus quae natus deserunt id neque ab voluptates incidunt eius quod adipisci, reiciendis quidem sunt aperiam illo nostrum vitae hic dolore quis, temporibus maiores consequuntur repellat, molestias amet repudiandae. Tempore harum tempora ipsum accusantium magnam!
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Lets chat it up!</a>
+          {/* <a href="#contact" className='btn btn-primary'>Lets chat it up!</a> */}
         </div>
       </div>
     </section>
