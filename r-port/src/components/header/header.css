@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 0rem;
     overflow: hidden;
 }
 
@@ -10,8 +10,13 @@ header {
     position: relative;
 }
 
+.gskrt {
+    position: relative;
+    top: 15rem
+}
+
 .cta {
-    margin-top: 26rem;
+    margin-top: 22rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
